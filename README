@@ -1,0 +1,12 @@
+Slime + Clojure + Swank
+
+Install clojure-mode: in emacs scratch buffer, input the following
+
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+             (package-initialize)
+then             
+    M-x eval-buffer
+    M-x package-refresh-contents
+    M-x package-install clojure-mode
