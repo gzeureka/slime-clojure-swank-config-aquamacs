@@ -46,6 +46,11 @@
 (add-to-list 'auto-mode-alist '("\.gvy$" . groovy-mode))
 (add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
 
+;; Clojure mode
+(autoload 'clojure-mode "clojure-mode" "Clojure editing mode." t)
+(add-to-list 'auto-mode-alist '("\.clj$" . clojure-mode))
+(add-to-list 'interpreter-mode-alist '("clojure" . groovy-mode))
+
 ;; set default directory
 (cd "~/work/cowboy/src/Misc/cowboy_clj/")
 ;(setf (stream-external-format *standard-input*) :utf8)
