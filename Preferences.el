@@ -47,5 +47,5 @@
 (add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
 
 ;; set default directory
-;(cd "D:/work/cowboy/src/Misc/cowboy_clj/")
+(cd "~/work/cowboy/src/Misc/cowboy_clj/")
 ;(setf (stream-external-format *standard-input*) :utf8)
