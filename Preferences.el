@@ -13,7 +13,7 @@
 
 ;; Enable line number
 (require 'linum+)
-(global-linum-mode)
+(global-linum-mode 1)
 
 ;; Color theme
 (add-to-list 'load-path "~/.emacs.d/color-theme")
